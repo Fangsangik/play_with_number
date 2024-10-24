@@ -1,5 +1,6 @@
 package level2.play;
 
+import level1.answer_validation.Out;
 import level2.answer_validation.Ball;
 import level2.answer_validation.Strike;
 import level2.result.MakeResult;
@@ -44,8 +45,9 @@ public class PlayMain {
                 // 스트라이크와 볼 계산
                 int strike = Strike.isStrike(randomResultNumber, guessNumber);
                 int ball = Ball.isBall(guessNumber, randomResultNumber);
+                int out = Out.isOut(guessNumber, randomResultNumber);
 
-                System.out.println(strike + "스트라이크" + " " + ball + "볼");
+                System.out.println(strike + "스트라이크" + " " + ball + "볼" + out + "아웃");
 
                 // 정답을 맞췄을 때
                 if (strike == IN_PUT_NUMBER) {
