@@ -47,7 +47,8 @@ public class PlayMain {
                 int ball = Ball.isBall(guessNumber, randomResultNumber);
                 int out = Out.isOut(guessNumber, randomResultNumber);
 
-                System.out.println(strike + "스트라이크" + " " + ball + "볼" + out + "아웃");
+                System.out.println(strike + "스트라이크" + " " + ball + "볼" + out + " " + "아웃");
+
 
                 // 정답을 맞췄을 때
                 if (strike == IN_PUT_NUMBER) {
