@@ -7,6 +7,9 @@
 ## 👨‍💻 About Project 
 
 ### Level 1 
+- out
+   -  자리값과 숫자 모두 다를 경우 아웃 처리 
+
 - Ball
     - 루프를 통해 number와 guess number의 idx 값을 비교, 
       같은 숫자지만 자리수가 다를경우 ball count ++
@@ -29,6 +32,9 @@
       숫자를 random하게 1 ~ 9 사이에 생성
 
 ### Level 2 
+- out
+   -  자리값과 숫자 모두 다를 경우 아웃 처리 
+
 - Ball
     - 루프를 통해 number와 guess number의 idx 값을 비교, 
       같은 숫자지만 자리수가 다를경우 ball count ++
@@ -57,6 +63,9 @@
     - 3번 Exit
 
 ### Level 3
+- out
+   -  자리값과 숫자 모두 다를 경우 아웃 처리 
+
 - Ball
     - 루프를 통해 number와 guess number의 idx 값을 비교, 
       같은 숫자지만 자리수가 다를경우 ball count ++
@@ -91,6 +100,9 @@
     - 아닐경우 사용자가 정답을 맞추기 위해 몇번 시도 했는지 보여준다.
  
 ### Level 4
+- out
+   -  자리값과 숫자 모두 다를 경우 아웃 처리 
+
   - Ball
     - 루프를 통해 number와 guess number의 idx 값을 비교, 
       같은 숫자지만 자리수가 다를경우 ball count ++
