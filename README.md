@@ -213,3 +213,6 @@ input.charAt(i)를 통해 각 문자를 하나씩 읽어 Character.getNumericVal
 level 4에서 게임 시도 횟수를 저장하는 로직이 있는데 level1,2,3에서는 List 함수를 사용했지만, 동시성 문제를 고려해보면 List 함수는 데이터에 값을 추가할때 동시에 같은 인덱스에 접근하려고 하면 덮어씌우거나 충돌하는 일이 발생. 따라서 Collections.synchronizedList를 사용 했다. 
 
 <href-a>https://velog.io/@ik0605/%EB%8F%99%EC%8B%9C%EC%84%B1-%EC%BB%AC%EB%A0%89%EC%85%98</a>
+--- 
+## 🤨 아쉬운 점 
+git commit message를 좀더 자세히 좀더 잘 활용해보고 싶다. 아직 익숙하지 않아 실수가 좀 많은 것 같다. 
